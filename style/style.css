@@ -410,3 +410,114 @@ section.essay .inner .essay-box p {
     line-height: 1.2;
     text-align: justify;
 }
+.footer-wrap .membership {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    position: relative;
+    background: rgb(233, 233, 0);
+    /* border: 1px solid #ffffff; */
+  }
+  .footer-wrap .membership p {
+    padding-top: 50px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .footer-wrap .membership span {
+    font-size: 20px;
+    /* border: 1px solid #000; */
+  }
+  .footer-wrap .membership .sign-in {
+    position: absolute;
+    bottom: 36px;
+    left: 880px;
+    padding:15px;
+    width: 160px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    background: #000000;
+    font-size: 20px;
+    z-index: 2;
+    letter-spacing: 4px;
+  }
+  .footer-wrap .membership .sign-in i {
+    font-size: 25px;
+    margin-left: 15px;
+  }
+  
+  .footer-wrap .membership .sign-in2 {
+    border: 1px solid #000;
+    width: 160px;
+    height: 60px;
+    position: absolute;
+    bottom: 32px;
+    left: 884px;
+    z-index: 1;
+  }
+  .nav-box {
+    background: rgb(255, 254, 249);
+  }
+  .footer-wrap .footer-menu {
+    /* border: 1px solid #000; */
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+  }
+  .footer-wrap .footer-menu ul {
+    width: 16.66%;
+  }
+  .footer-wrap .footer-menu h2 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+  }
+  .footer-wrap .footer-menu li {
+    /* border: 1px solid #000; */
+    margin-bottom: 10px;
+  }
+  .footer-wrap .footer-menu li:hover {
+    text-decoration: underline;
+  }
+  .footer-wrap .nav-box p {
+    width: 60%;
+    padding: 10px 0;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+  }
+  .footer-wrap .nav-box i {
+    font-size: 26px;
+  }
+  .footer-end {
+    /* border: 4px solid #dff300; */
+    background: #26252e;
+    width: 100%;
+    height: 120px;
+  }
+  .footer-end .option-list {
+    /* border: 4px solid rgb(0, 92, 34)fff; */
+    width: 100%;
+    color: #b9b9b9;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-end .option-list li {
+    border-right: 1px solid #ffffff;
+    margin-top: 30px;
+    padding: 0 20px;
+    font-size: 14px;
+  }
+  .footer-end .option-list li:last-child {
+    border-right: none;
+  }
+  .footer-end p {
+    /* border: 4px solid #ff0000; */
+    margin-top: 50px;
+    color: #b9b9b9;
+    font-size: 12px;
+    text-align: center;
+  }
